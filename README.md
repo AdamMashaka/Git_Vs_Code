@@ -55,6 +55,30 @@ git push -u origin master
 
 ```
 
+2: IF the answer is come with some output like 
+
+```
+(.venv) adam@adam-HP-EliteBook-840-G3:~/Downloads/Stackoverflow-Clone-with-django-master/stackprj$ git remote -v
+(.venv) adam@adam-HP-EliteBook-840-G3:~/Downloads/Stackoverflow-Clone-with-django-master/stackprj$ AdamMashaka/Git_Vs_Code push
+(.venv) adam@adam-HP-EliteBook-840-G3:~/Downloads/Stackoverflow-Clone-with-django-master/stackprj$ AdamMashaka/Git_Vs_Code pull
+
+```
+**You have to remove the existing usre if is not you**
+*That happen sometimes because of when you clone from somebody sometimes*
+
+## How to remove that user
+   **Type that command**
+
+   ```
+  git remote remove origin
+
+```
+## Then type the same code as before
+
+```
+git remote -v
+```
+
     
  
 
